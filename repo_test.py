@@ -1,5 +1,9 @@
 print("This is a test")
-print("please state your age")
+print("Hello\nplease state your age")
 age = int(input())
-print (f"you are {age} years old")
-5
+if age >= 18:
+    print("Take your drink")
+else:
+    print("I am calling the cops")
+
+
