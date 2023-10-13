@@ -24,3 +24,12 @@ if number % 2 == 0:
     print(f"The number {number} is an even number")
 else:
     print(f"The number {number} is an odd number")
+
+
+#comparison operators
+first_number = int(input("Please enter first number."))
+second_number = int(input("Please enter second number"))
+if first_number < second_number:
+    print ("The first number is the smallest")
+else:
+    print ("\nThe second number is the smallest")
