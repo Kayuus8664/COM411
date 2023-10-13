@@ -26,10 +26,31 @@ else:
     print(f"The number {number} is an odd number")
 
 
-#comparison operators
+# comparison operators
 first_number = int(input("Please enter first number."))
 second_number = int(input("Please enter second number"))
 if first_number < second_number:
     print ("The first number is the smallest")
 else:
     print ("\nThe second number is the smallest")
+
+# counter
+first_whole_number = int(input("Please enter the first whole number"))
+second_whole_number = int(input("please enter the second whole number"))
+third_whole_number = int(input("Please enter the third whole number"))
+even_numbers = 0
+odd_numbers = 0
+if first_whole_number % 2 == 0:
+    even_numbers = even_numbers + 1
+else:
+    odd_numbers = odd_numbers + 1
+if second_whole_number % 2 == 0:
+    even_numbers = even_numbers + 1
+else:
+    odd_numbers = odd_numbers + 1
+if third_whole_number % 2 == 0:
+    even_numbers = even_numbers + 1
+else:
+    odd_numbers = odd_numbers + 1
+print (f"\nThere were {even_numbers} even numbers and {odd_numbers} odd numbers")
+
